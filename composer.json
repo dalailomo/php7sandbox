@@ -1,0 +1,20 @@
+{
+  "name": "PHP 7 SandBox",
+  "authors": [
+    {
+      "name": "Pedro Sanchez",
+      "email": "pedro.s.casas@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sandbox\\Core\\": "src/Core",
+      "Sandbox\\Representation\\": "src/Representation",
+      "Sandbox\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "4.7",
+    "php": ">=7.0.0"
+  }
+}
