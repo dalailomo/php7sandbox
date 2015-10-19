@@ -17,17 +17,17 @@ trait Recognizable
         $this->_name = $name;
     }
 
-    public function getId() : string
+    public function getId() : \string
     {
         return $this->_id;
     }
 
-    public function getName() : string
+    public function getName() : \string
     {
         return $this->_name;
     }
 
-    public function getInitial() : string
+    public function getInitial() : \string
     {
         return $this->_name[0];
     }

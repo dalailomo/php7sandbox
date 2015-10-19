@@ -12,7 +12,7 @@ trait Killable
         $this->_hitPoints = $hitPoints;
     }
 
-    public function getHitPoints() : int
+    public function getHitPoints() : \int
     {
         return $this->_hitPoints;
     }

@@ -27,17 +27,17 @@ class Coordinate
         return $this;
     }
 
-    public function getX() : int
+    public function getX() : \int
     {
         return $this->_x;
     }
 
-    public function getY() : int
+    public function getY() : \int
     {
         return $this->_y;
     }
 
-    public function match(int $x, int $y)
+    public function match(\int $x, \int $y)
     {
         return ($x === $this->_x AND $y === $this->_y);
     }
