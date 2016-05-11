@@ -13,7 +13,7 @@ class Board
     private $_scenario;
     private $_board;
 
-    private function _placeInstanceIn(\int $x, \int $y) : \string
+    private function _placeInstanceIn(int $x, int $y) : string
     {
         foreach ($this->_scenario->getInstanceCollection() as $element) {
             if ($element['position']->match($x, $y))
@@ -43,7 +43,7 @@ class Board
         $this->_buildBoard();
     }
 
-    public function render() : \string
+    public function render() : string
     {
         return $this->_board;
     }

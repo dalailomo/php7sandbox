@@ -10,7 +10,7 @@ class Scenario
 
     protected $_instanceCollection;
 
-    public function __construct(\string $name)
+    public function __construct(string $name)
     {
         $this->_name = $name;
         $this->_instanceCollection = new \ArrayObject;
